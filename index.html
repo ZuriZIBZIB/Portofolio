@@ -1,23 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>maskuri</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alkafi F - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div></div>
-    <table></table>
-    <div></div>
-    <table></table>
-    <div></div>
-    <table></table>
-    <div></div>
-    <table></table>
-    <div></div>
-    <table></table>
-    <div></div>
-    
+  <!-- ===== HEADER / NAVBAR ===== -->
+  <header>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#about">About me</a></li>
+        <li><a href="#project">Project</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+        <button class="btn-talk">Let's Talk</button>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero">
+    <div class="hero-left">
+      <p class="hello">hello</p>
+      <h1>I Am <br> Alkafi F</h1>
+      <button class="btn-dark">Contact Me</button>
+    </div>
+
+    <div class="hero-image">
+      <!-- FOTO PROFIL DI SINI -->
+      <img src="asset/alkafi.png" alt="foto profil">
+    </div>
+
+    <div class="hero-right">
+      <h2>UI/UX Designer and Fullstack Developer</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+      <button class="btn-explore">Explore Project</button>
+    </div>
+  </section>
+
+  <!-- ===== MINI AVATAR SECTION ===== -->
+  <section class="avatar-row">
+    <img class="ava ava1" src="asset/Rectangle 96.png" alt="avatar">
+    <img class="ava ava2" src="asset/Rectangle 96.png" alt="avatar">
+    <img class="ava ava3" src="asset/Rectangle 96.png" alt="avatar">
+  </section>
+
+  <!-- ===== ABOUT SECTION ===== -->
+  <section id="about" class="about">
+    <div class="about-left">
+      <h2>About Me</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+
+      <div class="tags">
+        <span>16 Years Old</span>
+        <span>Student</span>
+        <span>Sigma</span>
+        <span>Cinephile</span>
+        <span>Programmer</span>
+        <span>Rizzler</span>
+      </div>
+    </div>
+
+    <div class="about-right">
+      <!-- GAMBAR EVOLVE -->
+      <img src="(gambar-evolve.jpg)" alt="Evolve">
+      <h3>Evolve</h3>
+      <p>What begins as a fragile spark of thought grows, transforms, and finds its place as meaningful design.</p>
+    </div>
+  </section>
+
+  <!-- ===== COOKIE DIVIDER ===== -->
+  <div class="cookie-divider">
+    <!-- GAMBAR COOKIE DI SINI -->
+    <img src="(gambar-cookie.png)" alt="cookie">
+  </div>
+
+  <!-- ===== PROJECT SECTION ===== -->
+  <section id="project" class="project">
+    <h2>Project</h2>
+
+    <div class="project-grid">
+      <!-- KOTAK PROJECT 1 -->
+      <div class="project-card">
+        <h3>Website jual makanan</h3>
+        <p>(figma, html, css)</p>
+        <img src="(gambar-project1.jpg)" alt="project1">
+      </div>
+
+      <!-- KOTAK PROJECT 2 -->
+      <div class="project-card">
+        <h3>Banner makanan</h3>
+        <p>(figma, canva)</p>
+        <img src="(gambar-project2.jpg)" alt="project2">
+      </div>
+
+      <!-- KOTAK PROJECT 3 -->
+      <div class="project-card">
+        <h3>Katalog TopUp</h3>
+        <p>(figma)</p>
+        <img src="(gambar-project3.jpg)" alt="project3">
+      </div>
+
+      <!-- KOTAK PROJECT 4 -->
+      <div class="project-card">
+        <h3>Poster Desain Grafis</h3>
+        <p>(figma)</p>
+        <img src="(gambar-project4.jpg)" alt="project4">
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FRIES SKILL SECTION ===== -->
+  <section id="skills" class="skills">
+    <!-- GAMBAR KENTANG DI BELAKANG -->
+    <div class="fries-bg">
+      <img src="(gambar-kentang.png)" alt="kentang">
+    </div>
+
+    <div class="skills-content">
+      <h2>My Skills</h2>
+
+      <div class="skill">
+        <span>HTML</span><div class="bar"><div style="width:70%;"></div></div>
+      </div>
+      <div class="skill">
+        <span>CSS</span><div class="bar"><div style="width:65%;"></div></div>
+      </div>
+      <div class="skill">
+        <span>JavaScript</span><div class="bar"><div style="width:30%;"></div></div>
+      </div>
+      <div class="skill">
+        <span>PHP</span><div class="bar"><div style="width:30%;"></div></div>
+      </div>
+      <div class="skill">
+        <span>Python</span><div class="bar"><div style="width:50%;"></div></div>
+      </div>
+      <div class="skill">
+        <span>Figma</span><div class="bar"><div style="width:80%;"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+
+    <div class="contact-card">
+      <!-- DORAEMON ATAU ILUSTRASI DI SINI -->
+      <img src="(gambar-doraemon.png)" alt="doraemon">
+      <div class="contact-info">
+        <p><strong>Instagram:</strong> Njudzzz</p>
+        <p><strong>Email:</strong> Meizafirza@gmail.com</p>
+        <p><strong>TikTok:</strong> Ecyloph</p>
+      </div>
+    </div>
+  </section>
+
 </body>
 </html>

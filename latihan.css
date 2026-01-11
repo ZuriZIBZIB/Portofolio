@@ -1,0 +1,29 @@
+.container{
+    display: grid;
+    padding: 5px;
+    border: 1px solid blue;
+    /* flex-direction: row; */
+    /* justify-content:space-evenly;
+    width: 80%;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr)); */
+}
+
+.kotak-satu{
+    background: red;
+    margin:0 auto;
+}
+
+.kotak-dua{
+    background: blue;
+    margin:0 auto;
+}
+
+.kotak-tiga{
+    background: green;
+    margin:0 auto;
+}
+
+.kotak-empat{
+    background: yellow;
+    margin:0 auto;
+}
